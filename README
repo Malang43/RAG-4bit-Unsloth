@@ -1,0 +1,11 @@
+# RAG 4-bit Unsloth
+
+This repository implements a **Retrieval-Augmented Generation (RAG)** pipeline using Unsloth's **dynamic 4-bit quantized models**.
+
+## Features
+- Embed domain-specific documents using HuggingFace models.
+- Build FAISS index for retrieval of relevant chunks.
+- Generate grounded responses using a 4-bit quantized LLM.
+- Memory-efficient VRAM usage with dynamic 4-bit precision.
+
+## Structure
